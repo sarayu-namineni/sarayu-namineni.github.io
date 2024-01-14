@@ -1,49 +1,60 @@
 <html lang="en"><head>
-<style>
-	.column {
-			float: left;
-	}
-	.left {
-			width: 25%;
-	}
-	.right {
-			width: 75%;
-	}
-	.row:after {
-			content: "";
-			display: table;
-			clear: both;
-	}
-</style>
-    <title>Sarayu Namineni</title>
-</head>
-<body>
-	<div class="row">
-		<div class="column left">
-			<img src="photo.jpeg" style="width: 90%; padding: 5%;" alt="Sarayu Namineni">
+	<style>
+		.column {
+				float: left;
+		}
+		.left {
+				width: 20%;
+		}
+		.right {
+				width: 80%;
+		}
+		.row:after {
+				content: "";
+				display: table;
+				clear: both;
+		}
+	</style>
+	    <title>Sarayu Namineni</title>
+	</head>
+	<body style="font-family: Arial, Helvetica, sans-serif">
+		<div class="row">
+			<div class="column left">
+				<img src="photo.jpeg" style="width: 90%; padding: 0%;" alt="Sarayu Namineni">
+			</div>
+			<div class="column right">
+				<h1 style="margin: 0;">Sarayu Namineni</h1>
+				<!-- About Me -->
+				<br />
+				<div>I graduated from Carnegie Mellon University with a B.S. in computer science in December 2022 and an M.S. in computer science in December 2023. My research interests include privacy-preserving
+				technologies, cryptography, and blockchains.</div>
+				<br />
+				<div>
+				Currently working as a software development engineer at Amazon Lab126 in Sunnyvale, California.
+				</div>
+				<br />
+				<div>Here is my <a style="display: inline;" href="cv.pdf">CV</a>.</div>
+			</div>
 		</div>
-		<div class="column right">
-			<h1 style="margin: 0;">Sarayu Namineni</h1>
-			<!-- About Me -->
-			<div>I'm a fifth-year master's student studying computer science at Carnegie
-			Mellon University. My research interests include privacy-preserving
-			technologies, cryptography, and blockchains.</div>
-			<div>Here is my <a style="display: inline;" href="cv.pdf">CV</a>.</div>
-			<!-- Thesis -->
-			<h2 style="margin-bottom: 0;">Thesis</h2>
-			<div>S. Namineni, <i>Preserving privacy and proving reputation in decentralized token
-			systems</i>, December 2023. <a style="display: inline;" href="master_thesis_final.pdf">Thesis</a>.</div>
+		<div class="">
+			<!-- Publications -->
+			<h2 style="margin-bottom: 0;">Publications</h2>
+			<ul>
+				<li><b>Master's Thesis:</b> S. Namineni, <i>Preserving privacy and proving reputation in decentralized token
+					systems</i>, December 2023. <a style="display: inline;" href="master_thesis_final.pdf">Thesis</a>
+				</li>
+			</ul>
 
 			<!-- Projects -->
 			<h2 style="margin-bottom: 0;">Projects</h2>
-				<h3>Blockchain Group (advised by Prof. Seth Goldstein)</h3>
+				<ul> <li> <h3>Blockchain (advised by Prof. Seth Goldstein)</h3>
 					<span>I have worked on two projects which build upon the
 					reputation-based decentralized lending system, 
 					<a style="display: inline;" href="https://www.zuzlab.com">ZUZ</a> which allows
 					users to generate capital by staking their own
 					reputation.</span>
 
-					<h4>Optimizing Ledger Operations (Fall 2021, Spring 2021, Fall 2022)</h4>
+					<ul> <li> <h4>Optimizing Ledger Operations (Fall 2021, Spring 2021, Fall 2022)</h4>
 						<ul>
 							<li>Implemented a prototype which allows users to define
 							their own token specifications to generate capital
@@ -61,7 +72,8 @@
 										Website</a>
 							</li>
 						</ul>
-					<h4>Privacy-Preserving Ledger Design and Implementation (Spring 2023, Summer 2023,
+					</li>
+					<li><h4>Privacy-Preserving Ledger Design and Implementation (Spring 2023, Summer 2023,
 					Fall 2023)</h4>
 						<ul>
 							<li>Designed and implemented a privacy-preserving
@@ -71,7 +83,7 @@
 							<li>Designed multi-step origin-anonymous transfer
 									with better incentivizes under the "pay for
 									privacy" model</li>
-							<li>(In progress): Designing and implementing a privacy-preserving
+							<li>Designing and implementing a privacy-preserving
 									UTXO-based protocol for this system as an
 									extension of ZCash</li>
 							<li> 	
@@ -80,10 +92,12 @@
 								<a style="display: inline;" href="privacy_report.pdf">Report</a>
 							</li>
 						</ul>
-
-				<h3>Crypto Group (working with Ph.D. student Abhiram Kothapalli,
+					</li>
+					</ul>
+					</li>
+				<li> <h3>Cryptography (working with Ph.D. student Abhiram Kothapalli,
 				supervised by Prof. Elaine Shi)</h3>
-					<h4>Efficient ZKPs for Blockchain Reputation (Fall 2023)</h4>
+					<ul><li><h4>Efficient ZKPs for Blockchain Reputation (Fall 2023)</h4>
 						<ul>
 							<li>Developing cryptographic primitive that can
 							efficiently update a zero-knowledge proof for the reputation of
@@ -91,11 +105,9 @@
 							an application-specific scoring function</li>
 							<li>Analyzing use case for decentralized applications, such as the reputation of debtors in peer-to-peer lending pools </li> 
 						</ul>
-		</div>
-
-	</div>
-	
-
-
-
-</body></html>
+					</li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+	</body></html>
